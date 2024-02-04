@@ -1,0 +1,16 @@
+.tools_panel{
+    ul{
+        margin: 0;
+        padding: 0;
+        width: 50px;
+        list-style: none;
+        padding-top: 30px;
+        li{
+            display: block;
+            margin-top: 10px;
+        }
+        li:first-child{
+            margin-top: 0;
+        }
+    }
+}

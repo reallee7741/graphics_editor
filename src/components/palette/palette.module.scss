@@ -1,0 +1,42 @@
+.palette{
+    display: inline-block;
+    float: right;
+    ul{
+        margin: 0;
+        padding: 0;
+        li{
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            border: 1px solid black;
+        }
+        li:first-child{
+            margin-left: 0;
+        }
+    }
+    .black{
+        background-color: black;
+    }
+    .white{
+        background-color: white;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .orange{
+        background-color: orange;
+    }
+    .red{
+        background-color: red;
+    }
+    .purple{
+        background-color: purple;
+    }
+    .blue{
+        background-color: blue;
+    }
+    .green{
+        background-color: green;
+    }
+}
